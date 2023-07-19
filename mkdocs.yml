@@ -1,0 +1,13 @@
+site_name: Mkdocs demo documentation
+
+theme:
+  name: "material"
+  
+nav:
+  - intro Docs: index.md
+  - code documentation: reference.md
+  
+plugins:
+  - mkdocstrings
+
+use_directory_urls: false
